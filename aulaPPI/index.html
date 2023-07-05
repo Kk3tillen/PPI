@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao JS</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div>
+        <button id="ingles" class="button" onclick="alert('Hello World!')">Inglês</button>
+        <button id="espanhol" class="button" onclick="espanhol()">Espanhol</button>
+        <button id="frances" class="button" >Francês</button>
+        <button id="portugues" class="button" >Português</button>
+        <button id="alemao" class="button" >Alemão</button>
+    </div>
+
+    <script src="js/olaMundo.js"></script>
+    <script src="js/dom.js"></script>
+    <script>
+        function espanhol(){
+            alert("¡Hola Mundo!");
+        }
+        function frances(){
+            alert("Salut le Monde!");
+        }
+        document.getElementById("frances").addEventListener("click", frances);
+    </script>
+    
+</body>
+</html>
