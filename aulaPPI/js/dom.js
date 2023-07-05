@@ -8,4 +8,10 @@ document.querySelector("#ingles").innerHTML = "English";
 console.log(document);
 
 let botao = document.createElement("button");
-botao.innerHTML("Japones");
+botao.innerHTML = "Japones";
+botao.setAttribute("id", "japones");
+botao.onclick = function(){
+    alert("ola mundo em japones");
+}
+document.body.appendChild(botao);
+
