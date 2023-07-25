@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos com JQuery</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/funcoes.js" defer></script>
+</head>
+<body>
+    <header class="container-fluid bg-primary text-center p-3">
+        <h1>Exemplos com JQuery</h1>
+        <h2>Prof. Marcelo Júnior</h2>
+    </header>
+    <section class="container rounded bg-info p-2 mt-2">
+        <h3 class="text-center mt-2">Podemos mostrar ou ocultar os exemplos</h3>
+        <h4>Função .toggle()</h4>
+        <button type="button" class="btn btn-primary d-block m-2" name="#fadeToggle">Função .fadeToggle()</button>
+        <button type="button" class="btn btn-warning d-block m-2" name="#slideToggle">Função .slideToggle()</button>
+        <button type="button" class="btn btn-success d-block m-2" name="#toggleClass">Função .toggleClass()</button>
+        <article class="bg-primary m-2 p-2 rounded" id="fadeToggle">
+            <h5 id="fade" class="btn btn-light">Função .fadeToggle()</h5>
+            <p>Quando você quer esmaecer elementos da visibilidade</p>
+        </article>
+        <article class="bg-warning m-2 p-2 rounded" id="slideToggle">
+            <h5 id="slide" class="btn btn-light">Função .slideToggle()</h5>
+            <p>Quando você quer que os elementos deslisem da visibilidade</p>
+        </article>
+        <article class="bg-success m-2 p-2 rounded" id="toggleClass">
+            <h5 class="btn btn-light">Função .toggleClass()</h5>
+        </article>
+    </section>
+</body>
+</html>
